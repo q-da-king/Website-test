@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BHW Software - Make a Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    /* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set colors */
+:root {
+  --primary-color: #000;
+  --secondary-color: #F90;
+  --accent-color: #00F;
+}
+
+/* Header styles */
+header {
+  background-color: var(--primary-color);
+  color: #FFF;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 120px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: var(--secondary-color);
+}
+
+/* Main styles */
+main {
+  padding: 20px;
+}
+
+.description h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.description p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.cta {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.cta h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.cta p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--secondary-color);
+  color: #FFF;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: var(--accent-color);
+}
+
+/* Footer styles */
+footer {
+  background-color: var(--primary-color);
+  color: #FFF;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+footer a {
+  display: inline-block;
+}
+
+footer img {
+  width: 20px;
+  height: 20px;
+}
+
+</style>
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <img src="/BHW software logo.png" alt="BHW Software Logo">
+      </a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="/pricing.html">Pricing</a></li>
+        <li><a href="/maw.html">Make A Website</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="description">
+      <h1>Make a Website</h1>
+      <p>
+        At BHW Software, we understand the importance of having a professional and effective website for your business. Our team of experts is here to help you create a stunning website that represents your brand and drives results.
+      </p>
+      <p>
+        Whether you need a simple one-page website or a complex e-commerce platform, we have the skills and expertise to bring your vision to life. Our process is tailored to your specific needs, ensuring that your website is unique and optimized for success.
+      </p>
+      <p>
+        We offer a range of services to support your website development journey. From designing the user interface to implementing the latest technologies, we take care of every detail to deliver a seamless and engaging user experience.
+      </p>
+      <p>
+        Ready to get started? Contact us today, and our team will be in touch within 12 hours to discuss your project requirements and provide you with a personalized quote.
+      </p>
+    </section>
+
+    <section class="cta">
+      <h2>Contact Us</h2>
+      <p>
+        We value your input and want to ensure that your website meets your expectations. Fill out the form below, and we will email you back within 12 hours to discuss your project further.
+      </p>
+      <a href="/contact.html" class="cta-button">Contact Us</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 BHW Software. All rights reserved.</p>
+    <a href="https://www.youtube.com/@coolcentral535" target="_blank">
+      <img src="/youtube-icon.png" alt="YouTube Icon">
+    </a>
+  </footer>
+</body>
+</html>
